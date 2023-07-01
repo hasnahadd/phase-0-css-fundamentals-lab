@@ -3,3 +3,63 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+
+}
+
+nav {
+
+
+  text-align: center;
+
+}
+
+
+a {
+  background-color: rgb(243, 237, 237);
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 900px;
+  text-decoration: none;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property>p {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 800px;
+
+}
+/* i made some modification with flex properties */
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 69, 69);
+  width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+#details>div {
+  flex-direction: row;
+  margin: 10px;
+  float: left;
+}
+
+div {
+  width: 25%;
+  text-align: center;
+
+}
+div a{
+  background-color:  rgb(240, 69, 69);;
+}
